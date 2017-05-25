@@ -1,0 +1,8 @@
+The name of each data file corresponds to the trip id from chargecar.org (i.e http://www.chargecar.org/data/#)
+Each data file line has the following format:
+
+Scan Tool Files:
+GMT time, relative time (s), elevation (m), planar distance (m), adjusted distance (m), speed (m/s), acceleration(m/s^2), power based on model (kW), actual power (kW), current (amps), voltage (V)
+
+GPS Files:
+GMT time, relative time (s), elevation (m), planar distance (m), adjusted distance (m), speed (m/s), acceleration (m/s^2), power based on model (kW)
